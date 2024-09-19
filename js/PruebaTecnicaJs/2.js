@@ -1,3 +1,26 @@
+/*
+Descripción:
+Estás construyendo un sistema de inventario de productos. Deberás implementar varias funciones para manejar la lista de productos y calcular el valor total del inventario.
+
+Requerimientos:
+Crea una lista de productos. Cada producto es un objeto con las siguientes propiedades:
+
+id: Un identificador único para cada producto.
+name: El nombre del producto.
+price: El precio del producto (número decimal).
+quantity: La cantidad de productos en stock (entero).
+Funciones a implementar:
+
+addProduct(products, name, price, quantity): Agrega un nuevo producto a la lista products. El id debe ser único y generado automáticamente.
+removeProduct(products, id): Elimina un producto de la lista según su id.
+updateQuantity(products, id, newQuantity): Actualiza la cantidad de un producto según su id.
+getTotalInventoryValue(products): Calcula el valor total del inventario (suma de price * quantity para todos los productos).
+getProductByName(products, name): Retorna el producto que coincida con el name.
+
+
+*/
+
+
 let products=[];
 
 function addProduct(products, name, price, quantity){
