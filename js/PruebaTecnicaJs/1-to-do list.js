@@ -70,7 +70,7 @@ function getPendingTasks(tasks) {
 // console.log(getPendingTasks(tasks)); 
 
 function removeTask(tasks, id){
-      const indice = tasks.findIndex(tasks => task.id === id);
+      const indice = tasks.findIndex(tasks => tasks.id === id);
       tasks.splice(indice,1)
       return  tasks
 }
